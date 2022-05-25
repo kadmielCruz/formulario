@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">formulario</a></li>
+    
+        </ul>
+    </nav>
+
+        <h1>Formulário</h1>
+        <form action="">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">
+                    Nome
+                </label>
+                <input type="text" id="nome"  placeholder="digite seu nome "><br>
+                <label for="datanasc">
+                    Data de Nascimento
+                </label>
+                <input type="date" id="datanasc"><br>
+                <label for="email">
+                    E-mail
+                </label>
+                <input type="email" id="email" placeholder="digite seu email"><br>
+                <label for="">Telefone</label>
+                <input type="text">
+            </fieldset>
+                <fieldset>
+                    <legend>Dados acadêmicos</legend>
+                    <label for="cursos">Cursos</label>
+                    <select name="cursos" id="cursos">
+                        <option value="ADS">ADS</option>
+                        <option value="GTI">GTI</option>
+                        <option value="TBD">TBD</option>
+                        <option value="TSI">TSI</option>
+                    </select><br>
+
+                    <label for="semestre">
+                        Semestre:
+                    </label>
+
+                    <label for="1">
+                        <input type="radio" name="1" value="1">1
+                    </label>
+                    
+                    <label for="2">
+                        <input type="radio" name="1" value="2">2
+                    </label>
+                    
+                    <label for="3">
+                        <input type="radio" name="1" value="3">3
+                    </label>
+                    
+                    <label for="4">
+                        <input type="radio" name="1" value="4">4
+                    </label>
+
+                    <label for="5">
+                        <input type="radio" name="1" value="5">5
+                    </label>
+                   
+                    
+                </fieldset>
+                <fieldset>
+                    <label for="trabalha">
+                        trabalha?
+                    </label>
+                    <input type="checkbox"><br>
+
+                    <label for="local">
+                        local de trabalho:
+                    </label>
+                    <input type="text"><br>
+                    <label for="texto">Descreva sua experiência</label><br>
+                    <textarea name="texto" id="texto" cols="60" rows="5"></textarea>
+                </fieldset>
+            </form>
+            <button type="submit">
+                Gravar
+            </button>
+            <button type="reset">
+                Limpar
+            </button>
+        
+            
+            
+    
+</body>
+</html>
